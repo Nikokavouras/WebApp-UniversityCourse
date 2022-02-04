@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,100&family=Varela+Round&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+body:after {
+  content: "";
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  opacity: 50%;
+  z-index: -1;
+  background: linear-gradient(to right, #19d4f5, #f12711);
+}
+
+a {
+  text-decoration: none;
+  text-align: center;
+  padding: 0.8em;
+  border-radius: 0.4em;
+  margin-top: 0.5em;
+  font-size: 0.9em;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  margin-top: 8em;
+}
+h2 {
+  text-align: center;
+}
+form {
+  width: 23em;
+  margin: auto;
+  padding: 2em;
+}
+form .form-group {
+  display: flex;
+  flex-direction: column;
+}
+form .form-group:not(:first-child) {
+  margin-top: 1em;
+}
+form div:last-of-type input {
+  cursor: pointer;
+  padding: 1em;
+  cursor: pointer;
+}
+form label {
+  font-weight: bold;
+}
+form input {
+  outline: none;
+  padding: 0.8em;
+  border-radius: 0.4em;
+  margin-top: 0.5em;
+  border: none;
+  box-shadow: 0 15px 30px 0 rgb(0 0 0 / 11%), 0 5px 15px 0 rgb(0 0 0 / 8%);
+}
+form span {
+  margin-top: 0.5em;
+  color: red;
+}
+form p {
+  margin-top: 1em;
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    width: 100%;
+  }
+  form {
+    width: 20em;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  form {
+    width: 16em;
+  }
+}
