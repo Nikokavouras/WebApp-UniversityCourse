@@ -224,6 +224,8 @@ hr:last-child {
     display: block;
     cursor: pointer;
     font-size: 1.5em;
+    width: 1.3em;
+    height: 1.3em;
   }
   .container {
     width: 90%;

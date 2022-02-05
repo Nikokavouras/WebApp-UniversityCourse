@@ -28,7 +28,7 @@ if (!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true) {
     <section class="basic-section">
         <div class="header-div">
             <h1>Αρχική</h1>
-            <i onclick="myFunction()" id="menu-icon-i" class="fas fa-bars"></i>
+            <img onclick="myFunction()" id="menu-icon-i" src="images/menu.png" alt="menu-icon">
         </div>
 
         <div class="hero-nav-div">
